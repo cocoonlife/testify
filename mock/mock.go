@@ -3,7 +3,7 @@ package mock
 import (
 	"fmt"
 	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/cocoonlife/testify/assert"
 	"reflect"
 	"runtime"
 	"strings"
