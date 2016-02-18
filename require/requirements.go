@@ -7,6 +7,7 @@ import (
 
 type TestingT interface {
 	Errorf(format string, args ...interface{})
+	Logf(format string, args ...interface{})
 	FailNow()
 }
 
